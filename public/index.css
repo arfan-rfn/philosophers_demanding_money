@@ -1,0 +1,103 @@
+html { 
+    background: url(img/bg.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  .body{
+    background-image: url(./img/rect.png);
+    margin: 40px auto;
+    width: 60%;
+    padding: 30px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+ .coin{
+    height: 60px;
+    width: 60px;
+    display: flex;
+    float: right;
+    background-color: #FAB110;
+    border: #f7f8b4 5px solid;
+    border-radius: 50%;
+    /* overflow: hidden; */
+    margin: 0 0 5px 0;
+}
+
+ .coin_txt{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    /* letter-spacing: 2.5px; */
+    /* font-weight: 500; */
+    margin: auto;
+
+    color: #f7f8b4;
+    text-shadow: 0 1px 0 rgb(224, 221, 48), 0 2px 0 #e0c424, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2);
+
+ }
+
+ form{
+     clear: both;
+ }
+
+
+ .coin_input{
+     height: 40px;
+     width: 60px;
+     font-size: 20px;
+     padding: 5px;
+     color: #0000007a;
+     font-family: 'Roboto', sans-serif;
+     border-radius: 10px;
+     float: right;
+     margin: 20px;
+ }
+
+ .label{
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    color: rgba(250, 250, 250, 0.815); 
+    float: left;
+ }
+
+.wrap {
+    height: 100%;
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+    clear: both;
+    float: right;
+  }
+  
+  .btn {
+    width: 140px;
+    height: 45px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    }
+  
+  .btn:hover {
+    background-color: #193759;
+    box-shadow: 0px 15px 20px #3e4d5f;
+    color: #fff;
+    transform: translateY(-7px);
+  }
+
+  #error{
+      clear: both;
+      color: rgb(170, 17, 17);
+      float: right;
+  }

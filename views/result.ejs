@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>result page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="./../public/result.css" />
+</head>
+<body>
+    <div class="body">
+        <div class="coin">
+            <div class="coin_txt">$<%=coin -1 %></div>
+        </div>
+        
+        <h1>Theories raise</h1>
+
+        <div class="data">
+            <div><% for(var i = 0; i<result.length; i++){ %></div>
+                <div class="single">
+                    <div class="theory"> <%= result[i].theory; %> </div>
+                    <div class="gain">$<%= result[i].gain; %> </div>
+                </div>
+
+            <div> <% } %> </div>
+        </div>
+
+    </div>
+
+</body>
+</html>

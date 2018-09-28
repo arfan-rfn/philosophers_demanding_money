@@ -1,0 +1,79 @@
+html { 
+    background: url(img/bg.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  .body{
+    background-image: url(./img/rect.png);
+    margin: 40px auto;
+    width: 50%;
+    padding: 30px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.coin{
+    height: 60px;
+    width: 60px;
+    display: flex;
+    float: left;
+    background-color: #FAB110;
+    border: #f7f8b4 5px solid;
+    border-radius: 50%;
+    /* overflow: hidden; */
+    margin: 0 0 5px 0;
+}
+
+ .coin_txt{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    /* letter-spacing: 2.5px; */
+    /* font-weight: 500; */
+    margin: auto;
+
+    color: #f7f8b4;
+    text-shadow: 0 1px 0 rgb(224, 221, 48), 0 2px 0 #e0c424, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2);
+
+ }
+
+ .data{
+     clear: both;
+ }
+
+ .theory{
+     float: left;
+     font-family: 'Roboto', sans-serif;
+     font-size: 20px;
+     margin: 0 10px;
+     /* background-color: #FAB110; */
+     padding: 5px;
+     color: #222222d0;
+ }
+
+ .gain{
+     float: right;
+     font-family: 'Roboto', sans-serif;
+     font-size: 20px;
+     padding: 5px 10px;
+     background-color: #343E56;
+     color: #eeebd1c2;
+ }
+
+ .single{
+     width: 80%;
+     clear: both;
+     display: block;
+     margin: 10px auto;
+     overflow: hidden;
+     background-color: rgb(200, 201, 202);
+     border-radius: 5px;
+ }
+
+ h1{
+     text-align: center;
+     color: #222222d0;
+     font-family: 'Roboto', sans-serif;
+    }
